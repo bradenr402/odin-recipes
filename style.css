@@ -134,7 +134,7 @@ a.btn:hover::before {
 }
 
 a.btn:hover {
-  color: #fff
+  color: white;
 }
 /* end */
  
