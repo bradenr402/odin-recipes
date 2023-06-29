@@ -104,7 +104,7 @@ img {
 }
 /* end */
 
-/* Links to buttons */
+/* Turns links into buttons */
 a.btn {
   text-decoration: none;
   border: 2px solid #7319fa;
