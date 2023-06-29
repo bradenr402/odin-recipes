@@ -50,6 +50,7 @@ body {
   display: grid;
   place-items: center;
   font-size: 18px;
+  text-align: center;
 }
 
 .description {
@@ -66,6 +67,7 @@ ul.ingredients-list {
 ul,
 ol {
   line-height: 120%;
+  text-align: left;
 }
 
 li {
