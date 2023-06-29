@@ -136,11 +136,8 @@ a.btn:hover::before {
 a.btn:hover {
   color: white;
 }
-/* end */
- 
- /* Fixes spacing of buttons so they don't overlap*/
-.left {
-  margin-bottom: 40px;
-  text-align: center;
+
+nav {
+  display: flex;
 }
 /* end */
