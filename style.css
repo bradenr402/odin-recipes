@@ -57,6 +57,10 @@ body {
   font-size: 20px;
   margin: 10px;
 }
+
+a {
+  font-size: 20px;
+}
 /* end */
 
 /* List styles */
