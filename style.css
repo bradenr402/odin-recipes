@@ -4,7 +4,7 @@ html {
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;
-  color: rgb(22, 22, 22);
+  color: #161616;
   box-sizing: border-box;
 }
 *,
@@ -19,7 +19,7 @@ h1,
 h2 {
   font-family: "Trebuchet MS", sans-serif;
   text-shadow:
-      0 1px 1px hsl(0deg 0% 0% / 0.075),
+      0 1px 1px hsla(0, 0%, 0%, 0.075),
       0 2px 2px hsl(0deg 0% 0% / 0.075),
       0 4px 4px hsl(0deg 0% 0% / 0.075),
       0 8px 8px hsl(0deg 0% 0% / 0.075),
@@ -59,11 +59,9 @@ body {
   text-align: center;
 }
 
-/* List styles */
-ul.ingredients-list {
-  list-style-type: square;
-}
+/* end */
 
+/* List styles */
 ul,
 ol {
   line-height: 120%;
@@ -71,7 +69,7 @@ ol {
 }
 
 li {
-  margin: 10px;
+  margin-bottom: 10px;
 }
 /* end */
 
@@ -81,16 +79,16 @@ img {
   height: auto;
   border-radius: 18px;
   box-shadow:
-      0 1px 1px hsl(0deg 0% 0% / 0.075),
-      0 2px 2px hsl(0deg 0% 0% / 0.075),
-      0 4px 4px hsl(0deg 0% 0% / 0.075),
-      0 8px 8px hsl(0deg 0% 0% / 0.075),
-      0 16px 16px hsl(0deg 0% 0% / 0.075)
+      0 1px 1px #00000013,
+      0 2px 2px #00000013,
+      0 4px 4px #00000013,
+      0 8px 8px #00000013,
+      0 16px 16px #00000013
     ;
 }
 /* end */
 
-/* Turns links into buttons */
+/* Turns links into animated buttons */
 a.btn {
   text-decoration: none;
   border: 2px solid #7319fa;
