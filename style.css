@@ -49,6 +49,7 @@ body {
   margin-right: 20%;
   display: grid;
   place-items: center;
+  font-size: 18px;
 }
 
 .description {
@@ -58,17 +59,12 @@ body {
 /* end */
 
 /* List styles */
-ul#homepage-list {
-  list-style: none;
-}
-
 ul.ingredients-list {
   list-style-type: square;
 }
 
 ul,
 ol {
-  font-size: 18px;
   line-height: 120%;
 }
 
