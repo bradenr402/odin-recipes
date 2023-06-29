@@ -25,6 +25,20 @@ h2 {
   font-size: 30px;
 }
 
+
+/** TEXT GRADIENT */ 
+.text-gradient {
+  color: #7319fa;
+  background-image: -webkit-linear-gradient(45deg, #7319fa, #ff33b4, #ff7e29);
+  background-clip: text;
+  -webkit-background-clip: text;
+  text-fill-color: transparent;
+  -webkit-text-fill-color: transparent;    
+}
+
+
+
+
 body {
   font-family: Verdana, Helvetica, sans-serif;
   padding-bottom: 30px;
