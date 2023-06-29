@@ -1,6 +1,7 @@
 html {
   background-image: url("images/background-gradient.jpeg");
   background-size: cover;
+  background-repeat: no-repeat;
 }
 
 body {
