@@ -59,15 +59,6 @@ body {
   text-align: center;
 }
 
-.description {
-  margin: 10px;
-}
-
-p {
-  margin: 10px;
-}
-/* end */
-
 /* List styles */
 ul.ingredients-list {
   list-style-type: square;
@@ -105,6 +96,7 @@ a.btn {
   border: 2px solid #7319fa;
   color: #7319fa;
   padding: 10px 20px;
+  margin: 0 10px;
   border-radius: 25px;
   position: relative;
   transition: all 700ms;
