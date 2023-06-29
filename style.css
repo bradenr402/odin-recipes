@@ -89,67 +89,7 @@ img {
 }
 
 
-/* Link animations */
-
-/* a#lasagna {
-  box-shadow: inset 0 0 0 0 #7319fa;
-  color: #7319fa;
-  margin: 0 -.25rem;
-  padding: 0 .25rem;
-  transition: color 300ms ease-in-out, box-shadow 300ms ease-in-out;
-}
-a#lasagna:hover {
-  box-shadow: inset 191px 0 0 0 #7319fa;
-  color: white;
-} 
-
-a#bananabread {
-  box-shadow: inset 0 0 0 0 #7319fa;
-  color: #7319fa;
-  margin: 0 -.25rem;
-  padding: 0 .25rem;
-  transition: color 300ms ease-in-out, box-shadow 300ms ease-in-out;
-}
-a#bananabread:hover {
-  box-shadow: inset 237px 0 0 0 #7319fa;
-  color: white;
-}
-
-a#bakedoatmeal {
-  box-shadow: inset 0 0 0 0 #7319fa;
-  color: #7319fa;
-  margin: 0 -.25rem;
-  padding: 0 .25rem;
-  transition: color 300ms ease-in-out, box-shadow 300ms ease-in-out;
-}
-a#bakedoatmeal:hover {
-  box-shadow: inset 145px 0 0 0 #7319fa;
-  color: white;
-}
-
-a.homepage-link {
-  box-shadow: inset 0 0 0 0 #7319fa;
-  color: #7319fa;
-  margin: 0 -.25rem;
-  padding: 0 .25rem;
-  transition: color 300ms ease-in-out, box-shadow 300ms ease-in-out;
-}
-a.homepage-link:hover {
-  box-shadow: inset 160px 0 0 0 #7319fa;
-  color: white;
-}
-
-a.homepage-link {
-  position: relative;
-  left: 15px;
-} */
-
-.left {
-  margin-bottom: 40px;
-  text-align: center;
-}
-
-
+/* Links to buttons */
 a.btn {
   text-decoration: none;
   border: 2px solid #7319fa;
@@ -182,3 +122,10 @@ body {
   display: grid;
   place-items: center;
  }
+
+ 
+ /* Fixes spacing of buttons so they don't overlap*/
+.left {
+  margin-bottom: 40px;
+  text-align: center;
+}
