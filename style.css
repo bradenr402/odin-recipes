@@ -61,6 +61,10 @@ body {
 a {
   font-size: 20px;
 }
+
+p {
+  margin: 10px;
+}
 /* end */
 
 /* List styles */
@@ -81,7 +85,7 @@ li {
 
 /* Image size & shadows */
 img {
-  width: 500px;
+  width: 650px;
   height: auto;
   border-radius: 18px;
   box-shadow:
