@@ -1,10 +1,16 @@
-/* Background image */
+/* Background image & box-sizing */
 html {
   background-image: url("images/background-gradient.jpeg");
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;
   color: rgb(22, 22, 22);
+  box-sizing: border-box;
+}
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
 }
 /* end */
 
