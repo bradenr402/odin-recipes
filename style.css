@@ -95,11 +95,9 @@ a.btn {
   border: 2px solid #7319fa;
   color: #7319fa;
   padding: 10px 20px;
-  margin: 0 10px;
   border-radius: 25px;
   position: relative;
   transition: all 700ms;
-  overflow: hidden;
 }
 
 a.btn::before {
@@ -122,8 +120,15 @@ a.btn:hover::before {
 a.btn:hover {
   color: white;
 }
-
-nav {
-  display: flex;
-}
 /* end */
+
+/* Uses flexbox display format to create a flexible and responsive homepage layout */
+
+.flex-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  flex: 1 1 auto;
+  gap: 10px;
+  flex-wrap: wrap;
+}
