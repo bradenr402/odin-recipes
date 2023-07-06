@@ -123,7 +123,6 @@ a.btn:hover {
 /* end */
 
 /* Uses flexbox display format to create a flexible and responsive homepage layout */
-
 .flex-container {
   display: flex;
   flex-direction: row;
@@ -132,3 +131,4 @@ a.btn:hover {
   gap: 10px;
   flex-wrap: wrap;
 }
+/* end */
