@@ -132,3 +132,23 @@ a.btn:hover {
   flex-wrap: wrap;
 }
 /* end */
+
+/* Makes header stick to top of page */
+header {
+  position: sitcky;
+  height: 60px;
+}
+
+/* Makes "back to homepage" button float in top left corner */
+a.homepage-link.btn {
+  position: absolute;
+  top: 25px;
+  left: 25px;
+}
+/* end */
+
+/* Makes arrow in homepage button bolder */
+.bold {
+  font-weight: 900;
+}
+/* end */
