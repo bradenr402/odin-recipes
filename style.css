@@ -135,15 +135,17 @@ a.btn:hover {
 
 /* Makes header stick to top of page */
 header {
-  position: sitcky;
+  position: sticky;
   height: 60px;
+  width: auto;
 }
 
 /* Makes "back to homepage" button float in top left corner */
 a.homepage-link.btn {
-  position: absolute;
+  position: fixed;
   top: 25px;
   left: 25px;
+  margin: 10px;
 }
 /* end */
 
